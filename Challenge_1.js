@@ -17,6 +17,6 @@ function numberAdder() {
         t = t + i;
       }
     }
-    console.log(t);
+    document.getElementById("displayHere").innerHTML= t;
   }
 }
